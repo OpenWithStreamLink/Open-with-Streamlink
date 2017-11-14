@@ -1,0 +1,48 @@
+{
+  "manifest_version": 2,
+  "name": "__MSG_extensionName__",
+  "description": "__MSG_extensionDescription__",
+  "author": "Damien Jacinto",
+  "version": "1.0.0",
+  "default_locale": "fr",
+  "applications": {
+    "gecko": {
+      "id": "damien.jacinto@gmail.com",
+      "strict_min_version": "56.0a1"
+    }
+  },
+
+  "background": {
+    "scripts": ["background.js"]
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "48": "icons/streamlink48x48.png",
+      "96": "icons/streamlink96x96.png"
+    },
+    "default_title": "__MSG_extensionName__",
+    "browser_style": true
+  },
+
+  "page_action": {
+    "default_icon": {
+      "48": "icons/streamlink48x48.png",
+      "96": "icons/streamlink96x96.png"
+    },
+    "default_title": "__MSG_extensionName__",
+    "browser_style": true
+  },
+
+  "options_ui": {
+    "page": "options.html"
+  },
+
+  "permissions": [
+    "menus",
+    "nativeMessaging",
+    "storage",
+    "tabs",
+    "activeTab"
+  ]
+}

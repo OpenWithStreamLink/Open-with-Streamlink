@@ -1,0 +1,21 @@
+{
+  "extensionName": {
+    "message": "Open with Streamlink",
+    "description": "Nom de l'extension."
+  },
+
+  "extensionDescription": {
+    "message": "Ouvre des liens avec streamlink.",
+    "description": "Description de l'add-on."
+  },
+
+  "menuItemLinkStreamlink": {
+    "message": "Ouvrir avec Streamlink",
+    "description": "Ouvre le lien avec Streamlink"
+  },
+
+  "menuItemPageStreamlink": {
+    "message": "Ouvrir avec Streamlink",
+    "description": "Ouvre la page avec Streamlink"
+  }
+}
