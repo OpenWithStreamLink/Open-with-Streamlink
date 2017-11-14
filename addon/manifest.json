@@ -2,12 +2,12 @@
   "manifest_version": 2,
   "name": "__MSG_extensionName__",
   "description": "__MSG_extensionDescription__",
-  "author": "Damien Jacinto",
+  "author": "OpenWithStreamLink",
   "version": "1.0.0",
   "default_locale": "fr",
   "applications": {
     "gecko": {
-      "id": "damien.jacinto@gmail.com",
+      "id": "openwithstreamlink@gmail.com",
       "strict_min_version": "56.0a1"
     }
   },
