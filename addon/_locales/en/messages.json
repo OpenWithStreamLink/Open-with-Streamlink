@@ -17,5 +17,21 @@
   "menuItemPageStreamlink": {
     "message": "Open with Streamlink",
     "description": "Opens the current page with Streamlink"
+  },
+
+  "buttonSaveOption": {
+    "message": "Save",
+    "description": "Save button from option page"
+  },
+
+  "labelQualityOption": {
+    "message": "Stream quality",
+    "description": "Label for stream quality from option page"
+  },
+
+  "detailQualityOption": {
+    "message": "Change the quality of the stream, options are : audio_only, worst, 360p, 480p, 720p, best",
+    "description": "Detail for stream quality from option page"
   }
+
 }

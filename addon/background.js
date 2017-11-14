@@ -1,4 +1,3 @@
-
 nativeName = "streamlinklauncher";
 
 function onCreated() {
@@ -33,44 +32,18 @@ function onClickedAction(tab)  {
   }
 }
 
-/*
-Initialize the page action: set icon and title, then show.
-Only operates on tabs whose URL's protocol is applicable.
-*/
-function initializePageAction(tab) {
-  browser.pageAction.show(tab.id);  
-}
-
-/*
-When first loaded, initialize the page action for all tabs.
-*/
-var gettingAllTabs = browser.tabs.query({});
-gettingAllTabs.then((tabs) => {
-  for (let tab of tabs) {
-    initializePageAction(tab);
-  }
-});
-
-/*
-Each time a tab is updated, reset the page action for that tab.
-*/
-browser.tabs.onUpdated.addListener((id, changeInfo, tab) => {
-  initializePageAction(tab);
-});
-
-
 browser.menus.create({
   id: "streamlinklauncher-link",
   title: browser.i18n.getMessage("menuItemLinkStreamlink"),
   contexts: ["link"],
-  targetUrlPatterns: ['*://go.twitch.tv/*','*://www.dailymotion.com/video/*','*://livestream.com/accounts/*','*://www.youtube.com/watch?v=*']
+  targetUrlPatterns: ['*://go.twitch.tv/*','*://www.twitch.tv/*','*://www.dailymotion.com/video/*','*://livestream.com/accounts/*','*://www.youtube.com/watch?v=*']
 }, onCreated);
 
 browser.menus.create({
   id: "streamlinklauncher-page",
   title: browser.i18n.getMessage("menuItemPageStreamlink"),
   contexts: ["page"],
-  documentUrlPatterns: ['*://go.twitch.tv/*','*://www.dailymotion.com/video/*','*://livestream.com/accounts/*','*://www.youtube.com/watch?v=*']
+  documentUrlPatterns: ['*://go.twitch.tv/*','*://www.twitch.tv/*','*://www.dailymotion.com/video/*','*://livestream.com/accounts/*','*://www.youtube.com/watch?v=*']
 }, onCreated);
 
 browser.menus.onClicked.addListener((info, tab) => {
@@ -90,4 +63,3 @@ browser.menus.onClicked.addListener((info, tab) => {
 });
 
 browser.browserAction.onClicked.addListener(onClickedAction);
-browser.pageAction.onClicked.addListener(onClickedAction);

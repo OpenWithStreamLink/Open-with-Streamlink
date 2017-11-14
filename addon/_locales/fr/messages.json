@@ -17,5 +17,20 @@
   "menuItemPageStreamlink": {
     "message": "Ouvrir avec Streamlink",
     "description": "Ouvre la page avec Streamlink"
+  },
+
+  "buttonSaveOption": {
+    "message": "Enregistrer",
+    "description": "Bouton d'enregistrement de la page préférence"
+  },
+
+  "labelQualityOption": {
+    "message": "Qualité de retransmissison du stream : ",
+    "description": "Label associé à l'option de qualité de la page préférence"
+  },
+
+  "detailQualityOption": {
+    "message": "Change la qualité de la retransmissison du streamn, les options sont : audio_only, worst, 360p, 480p, 720p, best",
+    "description": "Detail associé à l'option de qualité de la page préférence"
   }
 }
