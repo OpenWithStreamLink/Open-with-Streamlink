@@ -30,8 +30,23 @@
   },
 
   "detailQualityOption": {
-    "message": "Change the quality of the stream, options are : audio_only, worst, 360p, 480p, 720p, best",
+    "message": "Change the quality of the stream",
     "description": "Detail for stream quality from option page"
+  },
+
+  "titleOption": {
+    "message": "Settings",
+    "description": "Option title"
+  },
+
+  "listQualityOption": {
+    "message": "Audio Only,Worst,360p,480p,720p,Best",
+    "description": "List for stream quality from option page"
+  },
+
+  "valueQualityOption": {
+    "message": "audio_only,worst,360p,480p,720p,best",
+    "description": "Value for stream quality from option page"
   }
 
 }

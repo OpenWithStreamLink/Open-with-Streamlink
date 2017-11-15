@@ -30,7 +30,22 @@
   },
 
   "detailQualityOption": {
-    "message": "Change la qualité de la retransmissison du streamn, les options sont : audio_only, worst, 360p, 480p, 720p, best",
-    "description": "Detail associé à l'option de qualité de la page préférence"
+    "message": "Change la qualité de la retransmissison du stream",
+    "description": "Détail associé à l'option de qualité de la page préférence"
+  },
+
+  "titleOption": {
+    "message": "Options",
+    "description": "Option titre"
+  },
+
+  "listQualityOption": {
+    "message": "Audio,Faible,360p,480p,720p,Meilleure",
+    "description": "List for stream quality from option page"
+  },
+
+  "valueQualityOption": {
+    "message": "audio_only,worst,360p,480p,720p,best",
+    "description": "Value for stream quality from option page"
   }
 }
