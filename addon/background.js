@@ -1,4 +1,4 @@
-nativeName = 'streamlinklauncher';
+nativeName = 'openwithstreamlink';
 
 function onCreated() {
   if (browser.runtime.lastError) {
@@ -37,14 +37,14 @@ function sendUrl(url) {
 }
 
 browser.menus.create({
-  id: 'streamlinklauncher-link',
+  id: 'openwithstreamlink-link',
   title: browser.i18n.getMessage('menuItemLinkStreamlink'),
   contexts: ['link'],
   targetUrlPatterns: ['*://go.twitch.tv/*','*://www.twitch.tv/*','*://www.dailymotion.com/video/*','*://livestream.com/accounts/*','*://www.youtube.com/watch?v=*']
 }, onCreated);
 
 browser.menus.create({
-  id: 'streamlinklauncher-page',
+  id: 'openwithstreamlink-page',
   title: browser.i18n.getMessage('menuItemPageStreamlink'),
   contexts: ['page'],
   documentUrlPatterns: ['*://go.twitch.tv/*','*://www.twitch.tv/*','*://www.dailymotion.com/video/*','*://livestream.com/accounts/*','*://www.youtube.com/watch?v=*']
@@ -52,10 +52,10 @@ browser.menus.create({
 
 browser.menus.onClicked.addListener((info, tab) => {
   switch (info.menuItemId) {
-    case 'streamlinklauncher-link':
+    case 'openwithstreamlink-link':
       url = info.linkUrl;
       break;
-    case 'streamlinklauncher-page':
+    case 'openwithstreamlink-page':
       url = info.pageUrl;
       break;
   }
