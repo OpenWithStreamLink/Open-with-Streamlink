@@ -6,9 +6,6 @@ The installation process will be simplified un the future.
 
 # [Requirements]
 
-Install python on your computer and be sure to check "Add Python X.X to PATH"
-Link for the windows installer [here][python-installer]
-
 Install streamlink on your computer in the default directory (C:\Program Files (x86)\Streamlink) and be sure to add streamlink to your PATH.
 See this [link][streamlink-installation] if you want more informations on how to install streamlink.
 
@@ -16,8 +13,7 @@ See this [link][streamlink-installation] if you want more informations on how to
 
 #### Manual installation
 
-Download the directory linker from this [link][linker] and unzip it in the default streamlink directory (C:\Program Files (x86)\Streamlink).
-Launch registrykey.reg to create the key for the native messaging of the web extension.
+Download the setup from this [link][linker] and install it.
 
 Install the addon on firefox.
 
@@ -25,4 +21,4 @@ Install the addon on firefox.
   [streamlink-installation]: https://streamlink.github.io/install.html
   [streamlink-installation-windows]: https://streamlink.github.io/install.html#windows-binaries  
   [python-installer]:https://www.python.org/ftp/python/3.6.3/python-3.6.3.exe
-  [linker]:https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/OpenWithStreamLink/Open-with-Streamlink/tree/master/linker
+  [linker]:https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/OpenWithStreamLink/Open-with-Streamlink/blob/master/innosetup/Output/setup.exe
