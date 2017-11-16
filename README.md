@@ -21,4 +21,4 @@ Install the addon on firefox.
   [streamlink-installation]: https://streamlink.github.io/install.html
   [streamlink-installation-windows]: https://streamlink.github.io/install.html#windows-binaries  
   [python-installer]:https://www.python.org/ftp/python/3.6.3/python-3.6.3.exe
-  [linker]:https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/OpenWithStreamLink/Open-with-Streamlink/blob/master/innosetup/Output/setup.exe
+  [linker]:https://github.com/OpenWithStreamLink/Open-with-Streamlink/releases/download/1.0/setup.exe
