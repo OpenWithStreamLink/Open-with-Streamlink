@@ -1,7 +1,0 @@
-{
-  "name": "openwithstreamlink",
-  "description": "Runs streamlink with passed parameter",
-  "path": "openwithstreamlink.bat",
-  "type": "stdio",
-  "allowed_extensions": [ "openwithstreamlink@gmail.com" ]
-}

@@ -2,7 +2,7 @@ nativeName = 'openwithstreamlink';
 
 function onCreated() {
   if (browser.runtime.lastError) {
-    console.log('Error: ${browser.runtime.lastError}');
+    console.log('Error: ',browser.runtime.lastError);
   } else {
     console.log('Item created successfully');
   }
@@ -17,7 +17,7 @@ function onResponse(r) {
 }
 
 function onError(error) {
-  console.log('Error: ${error}');
+  console.log('Error: ',error);
 }
 
 function onDisconnect(p){
