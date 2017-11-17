@@ -1,13 +1,11 @@
 # Open-with-Streamlink
-Lets you open links with streamlink from Firefox
+Open links with streamlink from Firefox.
 
-For now you have two parts for the project : the addon for Firefox (> 56.0a1) and the "client" part to install on your computer.
-The installation process will be simplified un the future.
+The project is divided in two, the addon for Firefox (> 56.0a1) and the "client" tointeract with streamlink to install on your computer.
 
 # [Requirements]
 
-Install streamlink on your computer in the default directory (C:\Program Files (x86)\Streamlink) and be sure to add streamlink to your PATH.
-See this [link][streamlink-installation] if you want more informations on how to install streamlink.
+Install streamlink on your computer. See this [link][streamlink-installation] if you want more informations on how to install streamlink.
 
 # [Installation]
 
